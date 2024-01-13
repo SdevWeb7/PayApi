@@ -7,8 +7,8 @@ This is a solution to the [PayAPI multi-page website challenge on Frontend Mento
 
 ### Links
 
-- Solution URL: [Github - Code source](https://github.com/SdevWeb7/Designo)
-- Live Site URL: [Github - Pages](https://sdevweb7.github.io/Designo/)
+- Solution URL: [Github - Code source](https://github.com/SdevWeb7/PayApi)
+- Live Site URL: [Github - Pages](https://sdevweb7.github.io/PayApi/)
 
 
 ### Built with
