@@ -1,0 +1,115 @@
+.about {
+
+  h1 {
+    color: #36536B;
+    font-family: DM Serif Display;
+    font-size: 3.5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 3.5rem; /* 100% */
+    letter-spacing: -0.02694rem;
+    margin: 5rem 10.31rem 3.37rem 10.31rem;
+    max-width: 40.625rem;
+  }
+
+  .grid-about {
+    display: grid;
+    grid-template-columns: 15.9375rem 1fr;
+    align-items: center;
+    margin: 3.75rem 10.31rem;
+
+    h2 {
+      color: #36536B;
+      font-family: DM Serif Display;
+      font-size: 2rem;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 2.5rem; /* 125% */
+      letter-spacing: -0.01538rem;
+      align-self: start;
+    }
+    p {
+      color: #6C8294;
+      font-family: Public Sans;
+      font-size: 0.9375rem;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 1.75rem; /* 186.667% */
+    }
+  }
+
+  .final-about {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1.87rem;
+    margin: 3rem 10.31rem;
+
+    h3 {
+      color: #BA4270;
+      font-family: DM Serif Display;
+      font-size: 3.5rem;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 4.5rem; /* 128.571% */
+      letter-spacing: -0.02694rem;
+    }
+    p {
+      color: #36536B;
+      font-family: Public Sans;
+      font-size: 1rem;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 1.75rem; /* 175% */
+    }
+    hr {
+      width: 100%;
+      padding: 0.0315rem 0;
+      opacity: 0.25;
+      background: #36536B;
+      margin: 1rem 0;
+    }
+  }
+}
+
+@media screen and (max-width: 1000px){
+  .about {
+    h1 {
+      text-align: center;
+      max-width: unset;
+      margin: 5rem 4rem 3.37rem 4rem;
+    }
+    .grid-about {
+      margin: 3.75rem 4rem;
+    }
+    .final-about {
+      margin: 3rem 4rem;
+    }
+  }
+}
+@media screen and (max-width: 700px){
+  .about {
+    .final-about {
+      grid-template-columns: 1fr;
+      text-align: center;
+      margin: 3rem 1rem;
+    }
+  }
+}
+@media screen and (max-width: 600px){
+  .about {
+    h1 {
+      text-align: center;
+      max-width: unset;
+      margin: 5rem 1rem 3.37rem 1rem;
+    }
+    .grid-about {
+      grid-template-columns: 1fr;
+      text-align: center;
+      margin: 3.75rem 1rem;
+      row-gap: 1.5rem;
+    }
+    img {
+      width: 100%;
+    }
+  }
+}

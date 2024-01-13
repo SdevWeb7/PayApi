@@ -1,0 +1,60 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import "components/buttons";
+@import "components/checkbox";
+@import "components/menu";
+@import "components/bg-patterns";
+@import "header";
+@import "footer";
+@import "home/home-part1";
+@import "home/home-part2";
+@import "home/home-part3";
+@import "about/about";
+@import "contact/contact";
+@import "pricing/pricing-part1";
+
+$color1: #BA4270;
+$color2: #FBFCFE;
+$color3: #36536B;
+$color4: #1B262F;
+$color5: #DA6D97;
+$color5: #6C8294;
+
+@font-face {
+  font-family: 'DM Serif Display';
+  src: url("/public/DMSerifDisplay-Regular.ttf")format('truetype');
+}
+@font-face {
+  font-family: 'Public Sans';
+  src: url("/public/PublicSans-VariableFont_wght.ttf")format('truetype');
+}
+
+$font1: 'Public Sans';
+$font2: "DM Serif Display";
+
+html {
+  background-color: #EDF3F8;
+  font-family: $font2;
+  overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #36536B;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #EDF3F8;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: white;
+}

@@ -1,0 +1,40 @@
+.bg-pattern-home, .bg-pattern-normal {
+  position: absolute;
+  top: -40%;
+  right: -25%;
+  left: -25%;
+  bottom: 50%;
+  border-radius: 50%;
+  background: #36536B;
+  opacity: .2;
+  z-index: -3;
+
+}
+.bg-pattern-normal {
+  left: 20%;
+  right: -70%;
+  top: -60%;
+}
+
+@media only screen and (min-width: 600px) {
+  .bg-pattern-home {
+    right: -5%;
+    left: -5%;
+  }
+}
+@media only screen and (min-width: 900px) {
+  .bg-pattern-home {
+    width: 48.75rem;
+    height: 48.75rem;
+    top: -25%;
+    right: -10%;
+    left: unset;
+    bottom: unset;
+  }
+  .bg-pattern-normal {
+    left: 62%;
+    bottom: 50%;
+    top: -50%;
+    right: -20%;
+  }
+}

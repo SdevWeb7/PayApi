@@ -1,0 +1,61 @@
+.header {
+  margin: 2.5rem 1.5rem 0 1.5rem;
+
+  .navbar {
+    display: flex;
+    align-items: center;
+
+    .burger {
+      width: 1.75rem;
+      height: 1.0625rem;
+      cursor: pointer;
+    }
+    .logo {
+      margin-right: auto;
+    }
+    .btn {
+      display: none;
+      margin-left: auto;
+    }
+  }
+
+  .nav-link {
+    display: none;
+    color: #36536B;
+    font-family: 'Public Sans';
+    font-size: 0.9375rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    opacity: .7;
+    margin-right: 2.5rem;
+
+    &:hover {
+      opacity: 1;
+    }
+  }
+}
+@media only screen and (min-width: 705px){
+  .header {
+    .nav-link {
+      display: block;
+    }
+    .burger {
+      display: none;
+    }
+
+    .navbar {
+      .logo {
+        margin-right: 4rem;
+      }
+      .btn {
+        display: block;
+      }
+    }
+  }
+}
+@media only screen and (min-width: 1100px) {
+  .header {
+      margin: 2.5rem 11.84rem 0 11.84rem;
+  }
+}

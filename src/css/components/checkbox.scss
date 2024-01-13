@@ -1,0 +1,21 @@
+.checkbox {
+  width: 1.5rem;
+  height: 1.5rem;
+  flex-shrink: 0;
+  opacity: 0.25;
+  background: #36536B;
+  cursor: pointer;
+
+  &.active {
+    opacity: 1;
+    background-color: #BA4270;
+    background-image: url("/public/images/shared/desktop/icon-check.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  &.disabled {
+    opacity: 0.05;
+    background: #36536B;
+  }
+}

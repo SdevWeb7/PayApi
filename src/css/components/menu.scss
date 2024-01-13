@@ -1,0 +1,50 @@
+.menu {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: 18.75rem;
+  background: #1B262F;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  padding: 3rem 1.69rem;
+  text-align: center;
+  z-index: 1000;
+
+
+  .close {
+    align-self: end;
+    width: 1.375rem;
+    height: 1.4375rem;
+    margin-bottom: 1.5rem;
+    cursor: pointer;
+    opacity: .7;
+
+    &:hover {
+      opacity: 1;
+    }
+  }
+
+  hr {
+    opacity: .15;
+    background: #FBFCFE;
+    margin-bottom: 2.69rem;
+  }
+
+  .nav-menu {
+    color: #FBFCFE;
+    font-family: "Public Sans";
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    opacity: .7;
+    margin-bottom: 2rem;
+
+    &:hover {
+      opacity: 1;
+    }
+  }
+
+}
